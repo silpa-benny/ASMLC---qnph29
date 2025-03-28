@@ -9,7 +9,7 @@ library(pROC)
 library(devtools)
 
 # load & process data
-data <- read.csv("C:/Users/hp/Downloads/heart_failure.csv")  
+data <- read.csv("https://raw.githubusercontent.com/silpa-benny/ASMLC---qnph29/refs/heads/main/heart_failure.csv")  
 data <- na.omit(data)
 
 # standardise features
